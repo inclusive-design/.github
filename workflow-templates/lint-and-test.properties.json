@@ -1,5 +1,5 @@
 {
-    "name": "NPM Lint and Test",
+    "name": "Node lint and Test",
     "description": "Runs default lint and test scripts.",
     "iconName": "octicon codescan",
     "categories": [
