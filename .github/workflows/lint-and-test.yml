@@ -1,10 +1,7 @@
 name: Lint and test
 
 on:
-  push:
-    branches: [dev, main]
-  pull_request:
-    branches: [dev, main]
+  workflow_call:
 
 jobs:
   lint-test:
