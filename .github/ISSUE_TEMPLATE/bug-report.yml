@@ -1,10 +1,13 @@
 name: Bug report
-about: Create a report to help us improve.
-title: ''
+title: 'Bug: '
 labels: bug
-assignees: ''
+assignees: []
 type: bug
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Create a report to help us improve.
   - type: textarea
     id: description
     attributes:
