@@ -5,66 +5,31 @@ labels: bug
 assignees: []
 type: bug
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Create a report to help us improve.
   - type: textarea
-    id: description
+    id: problem
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of the bug.
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of the problem.
     validations:
       required: true
   - type: textarea
-    id: reproduction
+    id: solution
     attributes:
-      label: To reproduce
-      description: Steps to reproduce the behaviour.
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
     validations:
       required: true
   - type: textarea
-    id: expected
+    id: alternatives
     attributes:
-      label: Expected behaviour
-      description: A clear and concise description of what you expected to happen.
-    validations:
-      required: true
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots
-      description: If applicable, add screenshots to help explain your problem.
-    validations:
-      required: false
-  - type: textarea
-    id: desktop
-    attributes:
-      label: Desktop
-      description: Please complete the following information.
-      value: |
-        - Device:
-        - Operating System:
-        - Browser:
-        - Browser Version
-    validations:
-      required: false
-  - type: textarea
-    id: mobile
-    attributes:
-      label: Mobile
-      description: Please complete the following information.
-      value: |
-          - Device:
-          - Operating System:
-          - Browser:
-          - Browser Version
+      label: Describe alternative solutions you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
     validations:
       required: false
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional context
-      description: Add any other context about the problem here.
+      label: Additional context or notes
+      description: Add any other context or screenshots about the feature request here.
     validations:
       required: false
